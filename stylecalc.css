@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(221, 221, 250);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.maincontent{
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+}
+.entry{
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    justify-content: space-around;
+    color: grey;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.inputs label{
+    letter-spacing: 0.2rem;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.inputs input{
+    width: 140px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    border: 1px solid blue;
+    
+}
+.inputs input :focus{
+    border: 1px solid yellow;
+    outline: none;
+
+}
+.error{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    color: red;
+    text-transform: none;
+    margin-top: 10px;
+}
+.button-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.button-line{
+    width: 100%;
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(59, 59, 245);
+}
+.results{
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+span{
+    color: blue;
+}
+
+
